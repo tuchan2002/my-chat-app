@@ -4,7 +4,7 @@ import { BsFillChatQuoteFill } from "react-icons/bs";
 import { useSignInWithGoogle } from "react-firebase-hooks/auth";
 import { auth } from "../config/firebase";
 
-const login = () => {
+const Login = () => {
     const [signInWithGoogle, _user, _loading, _error] =
         useSignInWithGoogle(auth);
 
@@ -26,4 +26,4 @@ const login = () => {
     );
 };
 
-export default login;
+export default Login;
