@@ -25,7 +25,7 @@ const Conversation = ({ conversation, messages }) => {
 
             <Sidebar />
 
-            <div className="h-screen flex-grow overflow-y-scroll">
+            <div className="h-screen flex-grow overflow-y-scroll scrollbar-hide">
                 <ConversationScreen
                     conversation={conversation}
                     messages={messages}
